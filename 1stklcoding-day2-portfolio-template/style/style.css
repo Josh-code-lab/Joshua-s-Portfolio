@@ -1,0 +1,153 @@
+/* General App CSS */
+*{
+	margin: 0;
+	box-sizing: border-box;
+}
+html {
+	font-family: 'Dancing Script', cursive;
+	scroll-behavior:smooth;
+}
+/* Navigation Bar CSS */
+nav .container {
+	display: flex;
+	width:100%;
+	align-items: center;
+	justify-content: space-around;
+	background-color:black;
+	min-height: 10vh;
+	position: fixed;
+	width:100%;
+	top:0;
+}
+
+.nav__links:hover{
+	opacity: 10;
+}
+.nav__logo{
+	text-transform: uppercase;
+	font-size: 18px;
+	letter-spacing: 5px;
+	color: white;
+}
+.nav__links {
+	justify-content: space-around;
+	width:40% ;
+	display: flex;
+}
+.nav__links a{
+	text-decoration:none;
+	color:white
+	}
+.nav__links li{
+	list-style-type: none;
+}
+
+/* General Section CSS */
+section{
+	padding: 90px;
+}
+
+.container{
+	text-align: center;
+	width: 100%
+}
+
+/* Home Section CSS */
+.home__section{
+	background-image: url("../img/bg-img-1.jpeg");
+	height: 800px;
+	background-attachment: fixed;
+	display: flex;
+}
+
+.home__section .container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.home__header h1{
+	font-size: 90px;
+	padding-bottom: 20px;
+	
+}
+
+.home__icons{
+	font-size: 60px;
+	
+}
+
+.fa{
+	color:black;
+	padding: 20px
+}
+.fa:hover{
+	opacity:0.7;
+}
+
+
+
+/* Social Media Icons CSS */
+
+/* About Section CSS */
+.about__section{
+	background-color: black;
+	color: white;
+	height:800px
+}
+
+.about__section h1{
+	font-size: 50px;
+	padding-bottom: 70px;
+}
+
+.about__info{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+
+.about__info img{
+   border-radius: 50%;
+}
+
+.about__info p{
+	font-size: 20px;
+	padding-left: 50px;
+	width: 600px;
+}
+
+/* Resume Section CSS */
+.resume__section{
+	background-image: url("../img/bg-img-2.jpeg");
+	background-attachment: fixed;
+	height:900px;
+}
+
+.resume__section h1{
+	font-size: 50px;
+}
+
+.resume__education, .resume__achievments{
+	background-color: white;
+	text-align: left;
+	padding: 10px 0 10px 30px;
+	margin:50px
+}
+.resume__education--1, .resume__achievments--1{
+	display:flex;
+	align-items: center;
+}
+
+/* Contact Section CSS */
+.contact__section{
+	font-size: 50px;
+	color:white;
+}
+
+.contact__section h1{
+	font-size: 50px;
+	color:rgb(75, 62, 62);
+}
